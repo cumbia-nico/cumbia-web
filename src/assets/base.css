@@ -1,0 +1,39 @@
+:root {
+  /* MAIN COLORS */
+ --main--blue: #00b5e2;
+ --main--pink: #f0899c;
+ --main--white: #F8FAFC;
+ --main--navigation: #F8FBFF;
+ 
+ /* ALERTS */
+ --alert--success: #00c566;
+ --alert--error: #ff4747;
+ --alert--warning: #facc15;
+
+ /* GREYSCALE */
+ --greyscale--black: #0f172a;
+ --greyscale--grey: #657790;
+
+ /* BREAKPOINTS */
+ --screen--small: 600px;
+ --screen--medium: 768px;
+ --screen--large: 992px;
+ --screen-extra-large: 1200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

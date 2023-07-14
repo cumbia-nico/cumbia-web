@@ -1,21 +1,49 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <NavbarLarge />
+  <NavbarSmall />
+  <component :is="currentView" />
+  <FooterBottom />
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<script>
+import "./assets/base.css";
+import Home from "./components/home/Home.vue";
+import About from "./components/about/About.vue";
+import Service from "./components/service/Service.vue";
+import Testimonial from "./components/testimonial/Testimonial.vue";
+import Team from "./components/team/Team.vue";
+import Pricing from "./components/pricing/Pricing.vue";
+import NotFound from "./components/NotFound.vue";
+
+const routes = {
+  "/": Home,
+  "/about": About,
+  "/service": Service,
+  "/testimonial": Testimonial,
+  "/team": Team,
+  "/pricing": Pricing,
+};
+
+export default {
+  components: {
+    Home,
+  },
+  data() {
+    return {
+      currentPath: window.location.hash,
+    };
+  },
+  computed: {
+    currentView() {
+      return routes[this.currentPath.slice(1) || "/" || NotFound];
+    },
+  },
+  mounted() {
+    window.addEventListener("hashchange", () => {
+      this.currentPath = window.location.hash;
+    });
+  },
+};
+</script>
+
+<style scoped lang="scss"></style>

@@ -50,7 +50,7 @@ export default {
         font-size: 24px;
         line-height: 35px;
         font-weight: 600;
-        color: var(--main--blue);
+        color: var(--cc-honolulu-blue);
     }
     p {
         font-weight: 500;

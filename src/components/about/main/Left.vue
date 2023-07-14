@@ -53,7 +53,7 @@ export default {};
       p {
         font-weight: 600;
         font-size: 24px;
-        color: var(--main--blue);
+        color: var(--cc-honolulu-blue);
       }
       h4 {
         font-size: 18px;

@@ -119,7 +119,7 @@ input {
                 p {
                     line-height: 30px;
                     span {
-                        color: var(--main--blue);
+                        color: var(--cc-honolulu-blue);
                     }
                 }
             }

@@ -70,7 +70,7 @@ export default {
       transition: 400ms;
       width: 80%;
       padding: 12px 16px;
-      background-color: var(--main--white);
+      background-color: var(--cc-white);
       position: absolute;
       bottom: 20px;
       border-radius: 8px;
@@ -95,7 +95,7 @@ export default {
         content: "";
         width: 10px;
         height: 10px;
-        background-color: var(--main--white);
+        background-color: var(--cc-white);
         position: absolute;
         top: -5px;
         transform: rotate(45deg);

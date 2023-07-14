@@ -1,6 +1,6 @@
 <template>
   <div class="home-left">
-    <h1 class="big-text">Creative Digital Agency That Help You Go Ahead</h1>
+    <h1 class="big-text">We Build Your Software</h1>
     <p class="info-text">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam,
@@ -98,7 +98,7 @@ export default {
   line-height: 20px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: var(--main--white);
+  color: var(--cc-white);
   text-decoration: none;
 }
 

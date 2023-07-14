@@ -2,7 +2,7 @@
   <header :class="{ background: activeLink !== 1 }">
     <Container>
       <div class="box">
-        <img src="../../assets/logo.png" alt="logo" />
+        <img src="../../assets/500-logo.png" alt="logo" />
         <div
           class="burger_button"
           @click="menu = !menu"
@@ -146,7 +146,7 @@ header {
       width: 40vw;
       height: 100vh;
       padding: 0 10px;
-      background-color: var(--main--pink);
+      background-color: var(--cc-selective-yellow);
       box-shadow: 0px 4px 64px rgba(35, 40, 105, 0.08);
       z-index: 1;
       @media screen and (max-width: 768px) {
@@ -174,17 +174,17 @@ header {
           border-radius: 10px;
           a {
             text-decoration: none;
-            color: var(--main--white);
+            color: var(--cc-white);
           }
           &:hover {
-            background-color: var(--main--blue);
+            background-color: var(--cc-honolulu-blue);
           }
           &:last-child {
-            background-color: var(--main--blue);
+            background-color: var(--cc-honolulu-blue);
           }
         }
         .link.active {
-          background-color: var(--main--blue);
+          background-color: var(--cc-honolulu-blue);
         }
       }
     }

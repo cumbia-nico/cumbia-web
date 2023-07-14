@@ -60,7 +60,7 @@ export default {
             gap: 10px;
             cursor: pointer;
             span {
-                color: var(--main--blue);
+                color: var(--cc-honolulu-blue);
                 font-size: 18px;
                 font-weight: 400;
             }

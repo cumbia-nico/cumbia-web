@@ -3,7 +3,7 @@
     <Container>
       <ul>
         <li>
-          <img src="../assets/logo.png" alt="logo" class="logo" />
+          <img src="../assets/500-logo.png" alt="logo" class="logo" />
         </li>
         <li class="info-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -11,7 +11,7 @@
           elit, sed do eiusmod tempor incididunt
         </li>
         <li class="copyright">
-          © Copyright 2022, All Rights Reserved by Nagency
+          © Copyright 2022, All Rights Reserved by Cumbia Consulting
         </li>
       </ul>
       <div class="links">
@@ -164,9 +164,9 @@ footer {
         button {
           width: 30%;
           height: 50px;
-          background-color: var(--main--pink);
+          background-color: var(--cc-selective-yellow);
           border: none;
-          color: var(--main--white);
+          color: var(--cc-white);
           border-radius: 0 3px 3px 0;
           cursor: pointer;
         }

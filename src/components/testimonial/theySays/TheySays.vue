@@ -122,7 +122,7 @@ export default {
                     p {
                         font-weight: 500;
                         font-size: 16px;
-                        color: var(--main--blue);
+                        color: var(--cc-honolulu-blue);
                         margin-bottom: 2px;
                     }
                     h3 {

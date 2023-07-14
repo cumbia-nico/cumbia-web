@@ -57,7 +57,7 @@ export default {
         height: 64px;
         border-radius: 50%;
         opacity: 0.1;
-        background-color: var(--main--pink);
+        background-color: var(--cc-selective-yellow);
         z-index: 1;
       }
       img {

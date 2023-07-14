@@ -2,7 +2,7 @@
   <header :class="{ background: activeLink !== 1 }">
     <Container>
       <div class="box">
-        <img src="../../assets/logo.png" alt="logo" />
+        <img src="../../assets/500-logo.png" alt="logo" />
         <ul>
           <li 
             v-for="data in links"
@@ -75,7 +75,7 @@ export default {
   line-height: 20px;
   text-align: center;
   letter-spacing: -0.02em;
-  color: var(--main--white);
+  color: var(--cc-white);
   text-decoration: none;
 }
 header {

@@ -10,7 +10,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 p {
-    color: var(--main--pink);
+    color: var(--cc-selective-yellow);
     font-size: 18px;
     font-weight: 500;
 }

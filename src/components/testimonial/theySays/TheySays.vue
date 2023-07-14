@@ -21,7 +21,7 @@
                             <p>{{ data.name }}</p>
                             <h3>{{ data.profession }}</h3>
                         </div>
-                        <img src="@/assets/image/they_says/500-logo.png" alt="logo">
+                        <img src="@/assets/image/they_says/logo.png" alt="logo">
                     </div>
                 </div>
             </div>

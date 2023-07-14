@@ -84,7 +84,7 @@ export default {
     .line {
       width: 100%;
       height: 1px;
-      background-color: var(--main--white);
+      background-color: var(--cc-white);
       opacity: 1;
     }
     .features {
@@ -105,14 +105,14 @@ export default {
     }
   }
   .price.support {
-    background-color: var(--main--pink);
-    color: var(--main--white);
+    background-color: var(--cc-selective-yellow);
+    color: var(--cc-white);
     border: none;
     .line {
       opacity: 0.1;
     }
     .active {
-      background-color: var(--main--white);
+      background-color: var(--cc-white);
       color: var(--greyscale--black);
     }
   }

@@ -1,8 +1,10 @@
 :root {
   /* MAIN COLORS */
- --main--blue: #00b5e2;
- --main--pink: #f0899c;
- --main--white: #F8FAFC;
+--cc-white: #FEFEFEff;
+--cc-selective-yellow: #FCBC1Fff;
+--cc-honolulu-blue: #237EB9ff;
+--cc-fire-engine-red: #e74846ff;
+
  --main--navigation: #F8FBFF;
  
  /* ALERTS */

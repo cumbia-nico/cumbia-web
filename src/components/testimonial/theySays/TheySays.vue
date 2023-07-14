@@ -21,7 +21,7 @@
                             <p>{{ data.name }}</p>
                             <h3>{{ data.profession }}</h3>
                         </div>
-                        <img src="@/assets/image/they_says/Logo.png" alt="logo">
+                        <img src="@/assets/image/they_says/500-logo.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@ export default {
                     p {
                         font-weight: 500;
                         font-size: 16px;
-                        color: var(--main--blue);
+                        color: var(--cc-honolulu-blue);
                         margin-bottom: 2px;
                     }
                     h3 {

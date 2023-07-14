@@ -20,14 +20,14 @@ export default {
         width: 100%;
         position: relative;
         height: fit-content;
-        background-color: var(--main--blue);
+        background-color: var(--cc-honolulu-blue);
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 30px;
         padding: 40px;
         border-radius: 32px;
-        color: var(--main--white);
+        color: var(--cc-white);
         overflow: hidden;
         &::before {
             content: "";
@@ -38,7 +38,7 @@ export default {
             right: -350px;
             opacity: 0.1;
             border-radius: 50%;
-            border: 80px solid var(--main--white);
+            border: 80px solid var(--cc-white);
         }
         p {
             font-weight: 500;

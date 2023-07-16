@@ -39,8 +39,31 @@ import BigNavigationText from "../ui-components/BigNavigationText.vue"
 import SmallNavigationText from "../ui-components/SmallNavigationText.vue"
 
 export default [
-    Container, NavbarLarge, NavbarSmall, FooterBottom, PinkButton, BlueButton, HomeFirstIndex, HomeSecondIndex, 
-    TitleInfo, TitleName, HomeThirdIndex, HomeFourthIndex, HomeFifthIndex, HomeSixtyIndex, HomeSeventhIndex,
-    HomeEightyIndex, BigNavigationText, SmallNavigationText, AboutFirstIndex, AboutSecondIndex, AboutThirdIndex,
-    AboutFourthIndex, ServiceFirstIndex, TestimonialFirstIndex, TeamFirstIndex, TeamSecondIndex, TeamThirdIndex
+    Container,
+    NavbarLarge,
+    NavbarSmall, 
+    FooterBottom, 
+    PinkButton, 
+    BlueButton, 
+    HomeFirstIndex, 
+    HomeSecondIndex, 
+    TitleInfo, 
+    TitleName, 
+    // HomeThirdIndex, 
+    HomeFourthIndex, 
+    HomeFifthIndex, 
+    // HomeSixtyIndex, 
+    // HomeSeventhIndex,
+    HomeEightyIndex, 
+    BigNavigationText, 
+    SmallNavigationText, 
+    AboutFirstIndex, 
+    AboutSecondIndex, 
+    AboutThirdIndex,
+    AboutFourthIndex, 
+    ServiceFirstIndex, 
+    TestimonialFirstIndex, 
+    TeamFirstIndex, 
+    TeamSecondIndex, 
+    TeamThirdIndex
 ]

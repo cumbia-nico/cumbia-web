@@ -2,7 +2,7 @@
     <div class="main">
         <div class="title">
             <TitleName>Let’s Join us</TitleName>
-            <TitleInfo>Available Position</TitleInfo>
+            <TitleInfo>Available Positions</TitleInfo>
         </div>
         <div class="positions-box">
             <div v-for="data in position" class="position">

@@ -4,18 +4,18 @@ import backend from "@/assets/icon/plan.svg"
 import frontend from "@/assets/icon/development.svg"
 
 const positions = [
-    {
-        position: "UI Designer",
-        type: "Remote",
-        time: "Full Time",
-        photo: ui
-    },
-    {
-        position: "Project Manager",
-        type: "Remote",
-        time: "Full Time",
-        photo: project
-    },
+    // {
+    //     position: "UI Designer",
+    //     type: "Remote",
+    //     time: "Full Time",
+    //     photo: ui
+    // },
+    // {
+    //     position: "Project Manager",
+    //     type: "Remote",
+    //     time: "Full Time",
+    //     photo: project
+    // },
     {
         position: "Backend Dev",
         type: "Remote",

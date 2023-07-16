@@ -3,6 +3,7 @@
     <Container>
       <div class="box">
         <img src="../../assets/500-logo.png" alt="logo" />
+        <h1>Cumbia Consulting</h1>
         <ul>
           <li 
             v-for="data in links"

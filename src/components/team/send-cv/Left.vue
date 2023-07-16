@@ -11,19 +11,19 @@
         <div class="icon">
             <img src="@/assets/icon/Location.svg" alt="Location">
         </div>
-        <p>Uzbekistan, Tashkent, Bekabad</p>
+        <p>San Antonio, Texas, USA</p>
     </div>
     <div class="info">
         <div class="icon">
             <img src="@/assets/icon/Phone.svg" alt="phone">
         </div>
-        <p>+998 (90) 109 65 04</p>
+        <p>+1 (830) 391 8431</p>
     </div>
     <div class="info">
         <div class="icon">
             <img src="@/assets/icon/email.png" alt="Email">
         </div>
-        <p>usmonovazizbek15@gmail.com</p>
+        <p>nico@cumbiaconsulting.com</p>
     </div>
   </div>
 </template>

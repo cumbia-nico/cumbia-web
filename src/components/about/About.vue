@@ -12,7 +12,7 @@
         <AboutFourthIndex />
         <HomeFourthIndex/>
         <HomeThirdIndex/>
-        <Testimonials />
+        <!-- <Testimonials /> -->
         <HomeEightyIndex/>
       </div>
     </Container>

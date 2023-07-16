@@ -2,13 +2,11 @@
   <div class="home-left">
     <h1 class="big-text">We Build Your Software</h1>
     <p class="info-text">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam,
-      quis nostrud exercitation dolore magna
+      Cumbia Consulting leverages near shore resources to help staff your project with the resources to get you across the finish line.
     </p>
     <BlueButton><a href="#" class="link">Contact Us</a></BlueButton>
     <div>
-      <div class="star-group">
+      <!-- <div class="star-group">
         <svg
           width="17"
           height="16"
@@ -69,20 +67,18 @@
             fill="#F59E0B"
           />
         </svg>
-      </div>
-      <p class="second-info-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua Utenimad minim
-        veniam.
-      </p>
+      </div> -->
+      <!-- <p class="second-info-text">
+        Cumbia Consulting leverages near shore resources to help staff you project with the resources to get you across the finish line.
+      </p> -->
     </div>
-    <div class="user">
+    <!-- <div class="user">
       <img src="@/assets/image/sulli_kiri.svg" alt="sulli kiri" />
       <div>
         <h4>Sulli Kiri</h4>
         <p>CEO Dream Team</p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>

@@ -1,29 +1,19 @@
 <template>
   <div>
     <div class="title">
-      <BigNavigationText>About us</BigNavigationText>
-      <SmallNavigationText>Home / About us</SmallNavigationText>
+      <BigNavigationText>Contact Us</BigNavigationText>
+      <SmallNavigationText>Home / Contact Us</SmallNavigationText>
     </div>
     <Container>
       <div class="main">
-        <AboutFirstIndex/>
-        <AboutSecondIndex />
-        <AboutThirdIndex />
-        <AboutFourthIndex />
-        <HomeFourthIndex/>
-        <!-- <HomeThirdIndex/> -->
-        <!-- <Testimonials /> -->
-        <HomeEightyIndex/>
+        <ContactThirdIndex/>
       </div>
     </Container>
   </div>
 </template>
 
 <script>
-import Testimonials from '../home/testimonals/Tstimonals.vue';
-export default {
-  components: { Testimonials }
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>

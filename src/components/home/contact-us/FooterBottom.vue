@@ -33,7 +33,7 @@
         <li><p>Subscribe to newsletter</p></li>
         <li>
           <p class="info">
-            Cumbia Consulting Newsletter
+            
           </p>
         </li>
         <li>

@@ -4,7 +4,7 @@
             <img :src="service.photo" :alt="service.name">
             <h4>{{ service.name }}</h4>
             <p>{{ service.title }}</p>
-            <div><span>Read More</span> <img src="@/assets/icon/arrow.svg" alt="arrow"></div>
+            <div><a href="#/service" class="link"><span>Read More</span> <img src="@/assets/icon/arrow.svg" alt="arrow"></a></div>
         </div>
     </div>
 </template>

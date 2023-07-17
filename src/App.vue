@@ -13,15 +13,17 @@ import Service from "./components/service/Service.vue";
 import Testimonial from "./components/testimonial/Testimonial.vue";
 import Team from "./components/team/Team.vue";
 import Pricing from "./components/pricing/Pricing.vue";
+import Contact from "./components/contact/Contact.vue";
 import NotFound from "./components/NotFound.vue";
 
 const routes = {
   "/": Home,
-  "/about": About,
+  // "/about": About,
   "/service": Service,
   "/testimonial": Testimonial,
   "/team": Team,
   "/pricing": Pricing,
+  "/contact": Contact
 };
 
 export default {

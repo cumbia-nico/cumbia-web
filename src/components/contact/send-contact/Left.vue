@@ -1,9 +1,9 @@
 <template>
   <div class="main">
-    <TitleName>Join us!</TitleName>
-    <TitleInfo>Join our team!</TitleInfo>
+    <TitleName>Contact</TitleName>
+    <TitleInfo>Let us kow what you need!</TitleInfo>
     <h4>
-      We are growing quickly and always looking for new talent!
+        Looking for digital consulting that will yield results, or just curious about what we are about? You’re in the right place. Email. Phone. Social media. Connect with the right team.
     </h4>
     <div class="info">
         <div class="icon">

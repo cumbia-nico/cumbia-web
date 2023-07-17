@@ -15,10 +15,10 @@ export default {
         return {
             albert: [
                 {
-                    name: "Albert William",
+                    name: "Nico Hopper",
                     photo: Albert,
-                    profession: "Project Manager",
-                    profession_full: "Project Manager / CEO",
+                    profession: "Solutions Architect",
+                    profession_full: "Solutions Architect / CEO",
                     big_text: "Maximize Your Reach with Marketing - Unlock Your Business's Growth Potential!",
                     small_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam, quis nostrud exercitation dolore magna"
                 }

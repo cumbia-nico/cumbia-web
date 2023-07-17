@@ -2,9 +2,11 @@
     <div class="contact-box">
         <p>Contact us</p>
         <h1>We help you to grow your <br> business faster & easier.</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididun.</h3>
+        <h3>Join us for a free consultation call!</h3>
         <PinkButton>
-            Contact Us
+            <a href="#/contact" class="link">
+                Contact Us
+            </a>
         </PinkButton>
     </div>
 </template>

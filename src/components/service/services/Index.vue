@@ -2,7 +2,7 @@
     <div class="service">
         <div class="title">
             <TitleName>
-                Our Service
+                Our Services
             </TitleName>
             <TitleInfo>
                 What Can We Bring for You

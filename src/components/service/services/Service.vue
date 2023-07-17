@@ -9,9 +9,7 @@
           <img :src="data.photo" :alt="data.name" />
           <h2>{{ data.name }}</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua Utenimad
-            minim veniam, quis nostrud exercitation dolore magna
+            {{ data.title }}
           </p>
         </div>
       </div>

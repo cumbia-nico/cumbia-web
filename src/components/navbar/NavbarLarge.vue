@@ -15,7 +15,7 @@
             <a :href="'#' + data.link">{{ data.name }}</a>
           </li>
         </ul>
-        <PinkButton><a href="#" class="contact">Contact Us</a></PinkButton>
+        <PinkButton><a href="#/contact" class="contact">Contact Us</a></PinkButton>
       </div>
     </Container>
   </header>
@@ -32,21 +32,21 @@ export default {
           name: "Home",
           link: "/",
         },
-        {
-          id: 2,
-          name: "About",
-          link: "/about",
-        },
+        // {
+        //   id: 2,
+        //   name: "About",
+        //   link: "/about",
+        // },
         {
           id: 3,
           name: "Service",
           link: "/service",
         },
-        {
-          id: 4,
-          name: "Testimonial",
-          link: "/testimonial",
-        },
+        // {
+        //   id: 4,
+        //   name: "Testimonial",
+        //   link: "/testimonial",
+        // },
         {
           id: 5,
           name: "Team",
@@ -54,9 +54,14 @@ export default {
         },
         {
           id: 6,
-          name: "Pricing",
-          link: "/pricing",
-        },
+          name: "Contact Us",
+          link: "/contact",
+        }
+        // {
+        //   id: 6,
+        //   name: "Pricing",
+        //   link: "/pricing",
+        // },
       ],
       activeLink: 1
     };

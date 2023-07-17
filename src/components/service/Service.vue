@@ -7,11 +7,11 @@
     <Container>
       <div class="main-style">
         <ServiceFirstIndex/>
-        <HomeThirdIndex/>
-        <div class="pricing">
+        <!-- <HomeThirdIndex/> -->
+        <!-- <div class="pricing">
             <Left/>
             <Right/>
-        </div>
+        </div> -->
         <HomeEightyIndex />
       </div>
     </Container>

@@ -4,7 +4,7 @@
     <p class="info-text">
       Cumbia Consulting leverages near shore resources to help staff your project with the resources to get you across the finish line.
     </p>
-    <BlueButton><a href="#" class="link">Contact Us</a></BlueButton>
+    <BlueButton><a href="#/contact" class="link">Contact Us</a></BlueButton>
     <div>
       <!-- <div class="star-group">
         <svg
@@ -88,15 +88,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.link {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  color: var(--cc-white);
-  text-decoration: none;
-}
 
 .home-left {
   width: 50%;

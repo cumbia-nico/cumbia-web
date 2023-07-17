@@ -39,3 +39,13 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
+
+.link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--cc-white);
+  text-decoration: none;
+}

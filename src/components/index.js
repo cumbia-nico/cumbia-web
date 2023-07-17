@@ -30,6 +30,9 @@ import TeamFirstIndex from "./team/ourTeam/OurTeam.vue"
 import TeamSecondIndex from "./team/join/Join.vue"
 import TeamThirdIndex from "./team/send-cv/Send.vue"
 
+// CONTACT
+import ContactThirdIndex from "./contact/send-contact/Send.vue"
+
 // UI COMPONENTS
 import PinkButton from "../ui-components/PinkButton.vue"
 import BlueButton from "../ui-components/BlueButton.vue"
@@ -65,5 +68,6 @@ export default [
     TestimonialFirstIndex, 
     TeamFirstIndex, 
     TeamSecondIndex, 
-    TeamThirdIndex
+    TeamThirdIndex,
+    ContactThirdIndex
 ]

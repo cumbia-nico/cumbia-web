@@ -3,6 +3,7 @@
     <Container>
       <div class="box">
         <img src="../../assets/500-logo.png" alt="logo" />
+        <h2>Cumbia Consulting</h2>
         <div
           class="burger_button"
           @click="menu = !menu"
@@ -43,21 +44,21 @@ export default {
           name: "Home",
           link: "/",
         },
-        {
-          id: 2,
-          name: "About",
-          link: "/about",
-        },
+        // {
+        //   id: 2,
+        //   name: "About",
+        //   link: "/about",
+        // },
         {
           id: 3,
           name: "Service",
           link: "/service",
         },
-        {
-          id: 4,
-          name: "Testimonial",
-          link: "/testimonial",
-        },
+        // {
+        //   id: 4,
+        //   name: "Testimonial",
+        //   link: "/testimonial",
+        // },
         {
           id: 5,
           name: "Team",
@@ -65,9 +66,14 @@ export default {
         },
         {
           id: 6,
-          name: "Pricing",
-          link: "/pricing",
-        },
+          name: "Contact Us",
+          link: "/contact",
+        }
+        // {
+        //   id: 6,
+        //   name: "Pricing",
+        //   link: "/pricing",
+        // },
       ],
       activeLink: 1,
       menu: false,

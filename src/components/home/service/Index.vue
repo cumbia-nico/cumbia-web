@@ -1,7 +1,7 @@
 <template>
   <div class="our-service">
     <div class="title">
-      <TitleName> Our Service </TitleName>
+      <TitleName> Our Services </TitleName>
       <TitleInfo> What Can We Bring for You </TitleInfo>
     </div>
     <Services />

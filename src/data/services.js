@@ -16,15 +16,15 @@ import adv_team from "@/assets/image/service/service-6.jpg"
 const service = [
     {
         name: "Consultant Plan",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        title: "Our Consultant Plan offers a strategic approach to your business challenges. We provide tailored solutions that foster growth and efficiency in your organization.",
         photo: `${Plan}`,
         adv_photo: adv_plan,
         left: true,
         id: 1,
     },
     {
-        name: "Design Thingking",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        name: "Design Thinking",
+        title: "Our Design Thinking service employs an innovative approach to problem-solving. We help you explore and evaluate creative ideas for tangible business outcomes.",
         photo: `${Thinking}`,
         adv_photo: adv_thinking,
         left: false,
@@ -32,7 +32,7 @@ const service = [
     },
     {
         name: "SEO Marketing",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        title: "With our SEO Marketing service, we ensure your business gains online visibility. We utilize proven strategies to increase traffic, engagement, and conversions on your site.",
         photo: `${SEO}`,
         adv_photo: adv_seo,
         left: true,
@@ -40,7 +40,7 @@ const service = [
     },
     {
         name: "Business Advisor",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        title: "Our Business Advisors provide expert insights and actionable strategies to drive your business forward. We offer advice on management, operations, and finance to ensure your success.",
         photo: `${Business}`,
         adv_photo: adv_business,
         left: false,
@@ -48,7 +48,7 @@ const service = [
     },
     {
         name: "Brand Personal",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        title: "Our Brand Personal service helps develop a unique brand identity that resonates with your target audience. We work on brand positioning, voice, and visual identity to differentiate you from competitors.",
         photo: `${Brand}`,
         adv_photo: adv_brand,
         left: true,
@@ -56,12 +56,13 @@ const service = [
     },
     {
         name: "Development",
-        title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+        title: "Our Development team provides top-notch technology solutions to propel your business. From custom software to mobile app development, we create platforms that increase efficiency and engagement.",
         photo: `${Development}`,
         adv_photo: adv_team,
         left: false,
         id: 6,
     },
 ];
+
 
 export default service

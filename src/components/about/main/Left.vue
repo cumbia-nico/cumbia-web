@@ -2,24 +2,22 @@
   <div class="left">
     <TitleName> About us </TitleName>
     <TitleInfo>
-      We Have 15 Years Of Experience On Creative Digital Agency
+      We Have The Experts You Need
     </TitleInfo>
     <p class="lorem">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua Utenimad minim veniam,
-      quis nostrud exercitation dolore magna
+      At Cumbia Consulting we pride ourselves on our unique backgrounds, access to remote talent, and modern solutions.
     </p>
     <div class="projects">
       <div>
-        <p>1254+</p>
+        <p>30+</p>
         <h4>Happy Clients</h4>
       </div>
       <div>
-        <p>3245+</p>
-        <h4>Project Complated</h4>
+        <p>40+</p>
+        <h4>Projects Completed</h4>
       </div>
     </div>
-    <BlueButton> View Service </BlueButton>
+    <BlueButton><a href="#/service" class="link">View Service</a></BlueButton>
   </div>
 </template>
 

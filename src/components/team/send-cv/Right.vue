@@ -1,7 +1,8 @@
 <template>
     <div class="main">
-        <form action="payload" method="get" @submit.prevent>
+        <form action="payload" @submit.prevent method="POST" data-netlify="true" netlify-honeypot="bot-field" netlify>
             <input placeholder="Name" v-model="name"/>
+            <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
             <div class="email-phone">
                 <input placeholder="Email" v-model="email"/>
                 <input placeholder="Phone" v-model="phone"/>

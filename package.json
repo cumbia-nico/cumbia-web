@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "netlify-cli": "^15.9.1",
     "vue": "^3.2.47",
     "vue-carousel": "^0.18.0"
   },

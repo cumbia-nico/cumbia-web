@@ -1,12 +1,13 @@
 <template>
     <div class="main">
-        <form name="send-contact" data-netlify="true" netlify-honeypot="bot-field" netlify>
+        <form name="send-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" netlify>
             <input placeholder="Name" v-model="name"/>
             <div class="email-phone">
                 <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
                 <input placeholder="Email" v-model="email"/>
                 <input placeholder="Phone" v-model="phone"/>
             </div>
+            <button type="submit" class="btn block">Send</button>
             <BlueButton @click="submit">Submit</BlueButton>
         </form>
     </div>

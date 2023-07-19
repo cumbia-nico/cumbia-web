@@ -2,11 +2,11 @@
     <div class="main">
         <form name="send-contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="form-name" value="send-contact" />
-            <input name="name" placeholder="Name" v-model="name"/>
+            <input name="name" placeholder="Name"/>
             <div class="email-phone">
                 <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
-                <input name="email" placeholder="Email" v-model="email"/>
-                <input name="phone" placeholder="Phone" v-model="phone"/>
+                <input name="email" placeholder="Email" />
+                <input name="phone" placeholder="Phone"/>
             </div>
             <BlueButton @click="submit">Submit</BlueButton>
         </form>

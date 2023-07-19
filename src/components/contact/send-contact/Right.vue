@@ -1,43 +1,34 @@
 <template>
     <div class="main">
-        <form name="send-contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-            <input type="hidden" name="form-name" value="send-contact">
-            <input placeholder="Name" v-model="name"/>
+        <!-- <form name="send-contact" method="POST" netlify-honeypot="bot-field" netlify>
+            <input type="hidden" name="form-name" value="send-contact" />
+            <input name="name" placeholder="Name"/>
             <div class="email-phone">
                 <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
-                <input placeholder="Email" v-model="email"/>
-                <input placeholder="Phone" v-model="phone"/>
+                <input name="email" placeholder="Email" />
+                <input name="phone" placeholder="Phone"/>
             </div>
             <BlueButton @click="submit">Submit</BlueButton>
+        </form> -->
+        <form name="contact" method="POST" netlify>
+            <p>
+            <label class="mt-1 mb-8 text-primary-600 dark:text-primary-400">Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+            <label class="mt-1 mb-8 text-primary-600 dark:text-primary-400">Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+            <label class="mt-1 mb-8 text-primary-600 dark:text-primary-400">Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+            <button type="submit" class="btn block" >Send</button>
+            </p>
         </form>
     </div>
 </template>
 
 <script>
-import positions from "@/data/positions"
 export default {
-    data() {
-        return {
-            name: '',
-            phone: "",
-            email: "",
-            submit_data: {}
-        }
-    },
-    methods: {
-        submit() {
-            this.submit_data = {
-                name: this.name,
-                phone: this.phone,
-                email: this.email
-            }
-            console.log(this.submit_data);
-        },
-        file_cv(e) {
-            this.cv = e.target.value
-            console.log(e.target.value);
-        }
-    },
 }
 </script>
 <style lang="scss" scoped>

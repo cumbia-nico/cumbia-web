@@ -1,5 +1,5 @@
 <template>
-    <div class="main">
+    <main>
         <!-- <form name="send-contact" method="POST" netlify-honeypot="bot-field" netlify>
             <input type="hidden" name="form-name" value="send-contact" />
             <input name="name" placeholder="Name"/>
@@ -24,7 +24,7 @@
             <button type="submit" class="btn block" >Send</button>
             </p>
         </form>
-    </div>
+    </main>
 </template>
 
 <script>

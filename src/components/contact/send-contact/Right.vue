@@ -7,9 +7,31 @@
                 <input placeholder="Email" v-model="email"/>
                 <input placeholder="Phone" v-model="phone"/>
             </div>
-            <button type="submit" class="btn block">Send</button>
+            <p>
+                <button type="submit" class="btn block">Send</button>
+            </p>
             <BlueButton @click="submit">Submit</BlueButton>
         </form>
+        <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     </div>
 </template>
 

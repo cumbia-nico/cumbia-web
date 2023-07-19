@@ -1,25 +1,24 @@
 <template>
     <div class="main">
         <form name="send-cv" enctype="multipart/form-data" netlify-honeypot="bot-field" netlify>
-            <input type="hidden" name="form-name" value="send-cv"/>
             <input placeholder="Name" v-model="name"/>
             <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
             <div class="email-phone">
-                <input placeholder="Email" v-model="email"/>
-                <input placeholder="Phone" v-model="phone"/>
+                <input name="email" placeholder="Email" v-model="email"/>
+                <input name="phone" placeholder="Phone" v-model="phone"/>
             </div>
-            <select v-model="position">
+            <select name="position" v-model="position">
                 <option value="">Position applied for</option>
                 <option :value="data.position" v-for="data in positions">{{ data.position }}</option>
             </select>
-            <input placeholder="Portfolio link" v-model="portfolio"/>
+            <input name="portfoli" placeholder="Portfolio link" v-model="portfolio"/>
             <div class="file">
                 <p>Upload your CV</p>
                 <label for="file">
                     <img src="@/assets/icon/Drop.svg" alt="drop">
                     <p>Drag and drop your file here <br> Or <span>browse files</span></p>
                 </label>
-                <input id="file" type="file" @change="file_cv"/>
+                <input name="file" id="file" type="file" @change="file_cv"/>
             </div>
             <BlueButton @click="submit">Submit</BlueButton>
         </form>

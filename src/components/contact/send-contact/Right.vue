@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <form name="send-contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="send-contact" method="POST" netlify-honeypot="bot-field" netlify>
             <input type="hidden" name="form-name" value="send-contact" />
             <input name="name" placeholder="Name"/>
             <div class="email-phone">

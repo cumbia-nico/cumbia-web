@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <form @submit.prevent name="send-contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="send-contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="form-name" value="send-contact">
             <input placeholder="Name" v-model="name"/>
             <div class="email-phone">

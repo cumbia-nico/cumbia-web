@@ -29,7 +29,7 @@
           <li><a href="#/contact">Contact us</a></li>
         </ul>
       </div>
-      <ul class="news">
+      <!-- <ul class="news">
         <li><p>Subscribe to newsletter</p></li>
         <li>
           <p class="info">
@@ -55,7 +55,7 @@
             <li><img src="../assets/icon/youtube.svg" alt="youtube" /></li>
           </ul>
         </li>
-      </ul>
+      </ul> -->
     </Container>
   </footer>
 </template>

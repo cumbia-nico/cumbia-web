@@ -1,6 +1,7 @@
 <template>
     <div class="main">
-        <form action="payload" @submit.prevent method="POST" data-netlify="true" netlify-honeypot="bot-field" netlify>
+        <form name="send-cv" enctype="multipart/form-data" netlify-honeypot="bot-field" netlify>
+            <input type="hidden" name="form-name" value="send-cv">
             <input placeholder="Name" v-model="name"/>
             <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
             <div class="email-phone">

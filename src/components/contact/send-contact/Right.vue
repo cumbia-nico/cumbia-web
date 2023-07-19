@@ -1,7 +1,7 @@
 <template>
     <div class="main">
         <form name="send-contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-            <input type="hidden" name="form-name" value="send-contact">
+            <input type="hidden" name="form-name" value="send-contact"/>
             <input placeholder="Name" v-model="name"/>
             <div class="email-phone">
                 <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
